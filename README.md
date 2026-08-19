@@ -1,37 +1,21 @@
-# GBO Logistics — React Router Website
+# GBO Logistics React Website
 
-This version uses React, Vite and React Router. It has separate browser routes for Home, About, Services, Specialized Cargo, Global Reach and Contact.
+A redesigned, more animated version of GBO Logistics using the public content and imagery from gbologistics.com.
 
 ## Run locally
-
-```bash
 npm install
 npm run dev
-```
 
-## Build
-
-```bash
+## Cloudflare
+Build command:
 npm run build
-```
 
-The production files are created in `dist`.
+Deploy command:
+npx wrangler deploy
 
-## Cloudflare Pages
+Root directory:
+/
 
-- Build command: `npm run build`
-- Build output directory: `dist`
-- Root directory: `/`
-
-The included `public/_redirects` file ensures that refreshing a route such as `/services` works on Cloudflare Pages.
-
-## Routes
-
-- `/`
-- `/about`
-- `/services`
-- `/specialized-cargo`
-- `/global-reach`
-- `/contact`
-
-The quote form is a front-end demonstration and does not send or store information until connected to an email, API or CRM service.
+## Important
+The contact form is currently a front-end demo only. Connect it to your email/API before production.
+The website references the existing GBO public image URLs so it uses the same visual assets as the current website.
