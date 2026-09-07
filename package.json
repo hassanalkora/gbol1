@@ -1,24 +1,20 @@
 {
-  "name": "gbo-logistics",
-  "version": "1.0.0",
+  "name": "gbo-logistics-react",
   "private": true,
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "npm run build && wrangler deploy"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "react": "19.2.8",
-    "react-dom": "19.2.8",
-    "react-router": "8.3.0"
+    "@vitejs/plugin-react": "latest",
+    "framer-motion": "latest",
+    "lucide-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   },
-  "devDependencies": {
-    "@types/react": "19.2.18",
-    "@types/react-dom": "19.2.4",
-    "typescript": "7.0.2",
-    "vite": "8.2.1",
-    "wrangler": "4.124.0"
-  }
+  "devDependencies": {}
 }
