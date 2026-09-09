@@ -226,7 +226,7 @@ function App() {
     const message = data.get('message') || ''
     const subject = encodeURIComponent(`GBO Logistics Website Inquiry - ${name}`)
     const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nCompany: ${company}\n\nMessage:\n${message}`)
-    window.location.href = `mailto:ghinwa@gboloistics.com?subject=${subject}&body=${body}`
+    window.location.href = `mailto:ghinwa@gbologistics.com?subject=${subject}&body=${body}`
   }
 
   return (
