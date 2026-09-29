@@ -547,7 +547,7 @@ function App() {
               <p>Share your shipping requirement and GBO Logistics can coordinate the best route and solution for your cargo.</p>
               <div className="contact-list">
                 <a href="mailto:ghinwa@gbologistics.com"><Mail /> <span><small>Email</small>ghinwa@gbologistics.com</span></a>
-                <a href="tel:+96176693278"><Phone /> <span><small>Phone</small>+961 76 693 278</span></a>
+                <a href="tel:+96176049130"><Phone /> <span><small>Phone</small>+961 76 693 278</span></a>
                 <div><MapPin /> <span><small>Office</small>3rd floor Rafic Hariri Hospital Street, Office #14, Bldg Mayss 6, Jnah, Beirut</span></div>
               </div>
             </motion.div>
@@ -588,7 +588,7 @@ function App() {
           <div>
             <h4>Contact</h4>
             <a href="mailto:ghinwa@gbologistics.com">ghinwa@gbologistics.com</a>
-            <a href="tel:+96176693278">+961 76 693 278</a>
+            <a href="tel:+96176049130">+961 76 693 278</a>
             <p>Jnah, Beirut, Lebanon</p>
           </div>
         </div>
