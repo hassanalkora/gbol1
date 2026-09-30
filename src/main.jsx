@@ -588,7 +588,7 @@ function App() {
           <div>
             <h4>Contact</h4>
             <a href="mailto:ghinwa@gbologistics.com">ghinwa@gbologistics.com</a>
-            <a href="tel:+96176049130">+961 76 693 278</a>
+            <a href="tel:+961 76049130">+961 76 049 130</a>
             <p>Jnah, Beirut, Lebanon</p>
           </div>
         </div>
@@ -598,7 +598,7 @@ function App() {
         </div>
       </footer>
 
-      <a className="whatsapp" href="https://wa.me/961+96176049130?text=Hello%20GBO%20Logistics%2C%20I%20would%20like%20to%20request%20a%20shipping%20quote." target="_blank" rel="noreferrer" aria-label="Chat with GBO Logistics on WhatsApp">
+      <a className="whatsapp" href="https://wa.me/+96176049130?text=Hello%20GBO%20Logistics%2C%20I%20would%20like%20to%20request%20a%20shipping%20quote." target="_blank" rel="noreferrer" aria-label="Chat with GBO Logistics on WhatsApp">
         <span className="whatsapp-pulse" />
         <Phone />
         <b>WhatsApp</b>
